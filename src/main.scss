@@ -31,43 +31,43 @@ a {
   @include transition(all .2s ease-in-out);
 }
 
-.last-modified {
-  position: absolute;
-  top: 30px;
-  left: 50%;
-  width: 1000px;
-  color: #bbb;
-  margin-left: -500px;
-  font-size: 12px;
-  text-align: right;
-  @media screen and (max-width: 1024px) {
-    display: none;
-  }
-  @media print {
-    display: none;
-  }
-}
+// .last-modified {
+//   position: absolute;
+//   top: 30px;
+//   left: 50%;
+//   width: 1000px;
+//   color: #bbb;
+//   margin-left: -500px;
+//   font-size: 12px;
+//   text-align: right;
+//   @media screen and (max-width: 1024px) {
+//     display: none;
+//   }
+//   @media print {
+//     display: none;
+//   }
+// }
 
-.download-pdf {
-  position: absolute;
-  top: 30px;
-  left: 50%;
-  color: #bbb;
-  margin-left: -500px;
-  font-size: 12px;
-  text-align: right;
-  @media screen and (max-width: 1024px) {
-    display: none;
-  }
-  @media print {
-    display: none;
-  }
-}
+// .download-pdf {
+//   position: absolute;
+//   top: 30px;
+//   left: 50%;
+//   color: #bbb;
+//   margin-left: -500px;
+//   font-size: 12px;
+//   text-align: right;
+//   @media screen and (max-width: 1024px) {
+//     display: none;
+//   }
+//   @media print {
+//     display: none;
+//   }
+// }
 
 .content {
   position: relative;
   width: 1024px;
-  margin: 50px auto;
+  margin: 20px auto;
   @include border-radius(5px);
   background-color: #fff;
   overflow: hidden;
@@ -80,7 +80,7 @@ a {
 
 .content-hd {
   width: 100%;
-  padding: 10px 50px;
+  padding: 0px 50px;
   color: #fff;
   // background-color: $theme-color;
   overflow: hidden;
@@ -211,7 +211,7 @@ a {
 .content-bd {
   width: 100%;
   min-height: 200px;
-  padding: 20px 30px 30px;
+  padding: 10px 30px;
   overflow: hidden;
   @media screen and (max-width: 720px) {
     padding: 20px 20px 50px;
